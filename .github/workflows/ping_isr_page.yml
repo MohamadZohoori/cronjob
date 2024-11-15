@@ -1,0 +1,13 @@
+name: Ping ISR Page
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"  # Runs every minute
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping ISR Page
+        run: curl -I https://joiner-shop-lambda.vercel.app/categories/Category-Xr8izg31AdfBn0Nr
