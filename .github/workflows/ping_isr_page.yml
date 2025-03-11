@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Ping ISR Page
-        run: curl -I https://dev.joinershop.com.au/categories/Category-Xr8izg31AdfBn0Nr
+        run: curl -I https://joinershop-vercel.vercel.app
